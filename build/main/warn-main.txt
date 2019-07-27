@@ -1,0 +1,87 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional module. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named pyimod03_importers - imported by PyInstaller.loader.pyimod02_archive (delayed, conditional), c:\users\sachu\appdata\local\programs\python\python37\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py (top-level)
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named com - imported by pkg_resources._vendor.appdirs (delayed)
+missing module named win32api - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named win32com.shell - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named StringIO - imported by babel._compat (conditional), PyInstaller.lib.modulegraph._compat (conditional), PyInstaller.lib.modulegraph.zipio (conditional), pkg_resources._vendor.six (conditional)
+missing module named _uuid - imported by uuid (optional)
+missing module named netbios - imported by uuid (delayed)
+missing module named win32wnet - imported by uuid (delayed)
+missing module named __builtin__ - imported by PIL.Image (optional), pkg_resources._vendor.pyparsing (conditional)
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing (optional)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named 'macholib.compat' - imported by macholib.MachO (optional)
+missing module named _pkgutil - imported by PyInstaller.lib.modulegraph.modulegraph (delayed, optional)
+missing module named xdis - imported by PyInstaller.lib.modulegraph._compat (conditional)
+missing module named dis3 - imported by PyInstaller.lib.modulegraph._compat (conditional)
+missing module named urllib.pathname2url - imported by urllib (conditional), PyInstaller.lib.modulegraph._compat (conditional)
+missing module named pyimod00_crypto_key - imported by PyInstaller.loader.pyimod02_archive (delayed, optional)
+missing module named thread - imported by PyInstaller.loader.pyimod02_archive (conditional)
+missing module named Crypto - imported by PyInstaller.building.makespec (delayed, conditional, optional)
+missing module named win32ctypes.core._time - imported by win32ctypes.core (top-level), win32ctypes.pywin32.win32api (top-level)
+missing module named win32ctypes.core._system_information - imported by win32ctypes.core (top-level), win32ctypes.pywin32.win32api (top-level)
+missing module named win32ctypes.core._resource - imported by win32ctypes.core (top-level), win32ctypes.pywin32.win32api (top-level)
+missing module named win32ctypes.core._dll - imported by win32ctypes.core (top-level), win32ctypes.pywin32.win32api (top-level)
+missing module named win32ctypes.core._common - imported by win32ctypes.core (top-level), win32ctypes.pywin32.win32api (top-level), win32ctypes.pywin32.win32cred (top-level)
+missing module named win32ctypes.core._authentication - imported by win32ctypes.core (top-level), win32ctypes.pywin32.win32cred (top-level)
+missing module named cffi - imported by PIL.Image (optional), PIL.PyAccess (top-level), PIL.ImageTk (delayed, conditional, optional), win32ctypes.core (optional)
+missing module named UserDict - imported by pytz.lazy (optional), PyInstaller.compat (conditional), PIL.PdfParser (optional)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern (top-level), pkg_resources (top-level), pkg_resources.py31compat (top-level)
+missing module named resource - imported by posix (top-level), C:\LibraryProject\main.py (top-level)
+missing module named posix - imported by os (conditional, optional), C:\LibraryProject\main.py (top-level)
+missing module named _posixsubprocess - imported by subprocess (conditional), C:\LibraryProject\main.py (top-level)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional), C:\LibraryProject\main.py (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), PyInstaller.loader.pyimod02_archive (delayed, conditional), C:\LibraryProject\main.py (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), C:\LibraryProject\main.py (top-level)
+missing module named _winreg - imported by platform (delayed, optional), babel.localtime._win32 (optional), C:\LibraryProject\main.py (top-level), pkg_resources._vendor.appdirs (delayed, conditional)
+missing module named java - imported by platform (delayed), C:\LibraryProject\main.py (top-level)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional), C:\LibraryProject\main.py (top-level)
+missing module named vms_lib - imported by platform (delayed, conditional, optional), C:\LibraryProject\main.py (top-level)
+missing module named termios - imported by tty (top-level), getpass (optional), C:\LibraryProject\main.py (top-level)
+missing module named grp - imported by shutil (optional), tarfile (optional), pathlib (delayed), C:\LibraryProject\main.py (top-level)
+missing module named 'org.python' - imported by pickle (optional), xml.sax (delayed, conditional), C:\LibraryProject\main.py (top-level)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), http.server (delayed, optional), webbrowser (delayed), pathlib (delayed, conditional, optional), netrc (delayed, conditional), getpass (delayed), C:\LibraryProject\main.py (top-level)
+missing module named org - imported by copy (optional), C:\LibraryProject\main.py (top-level)
+missing module named httplib - imported by mysql.connector.fabric.connection (conditional, optional)
+missing module named urllib2 - imported by mysql.connector.fabric.connection (optional)
+missing module named xmlrpclib - imported by mysql.connector.fabric.connection (optional)
+missing module named Queue - imported by mysql.connector.pooling (optional)
+missing module named ConfigParser - imported by mysql.connector.optionfiles (conditional)
+missing module named _mysql_connector - imported by mysql.connector (optional), mysql.connector.connection_cext (optional), mysql.connector.cursor_cext (top-level)
+missing module named Tkinter - imported by PIL.ImageTk (conditional), tkcalendar.dateentry (optional), tkcalendar.tooltip (optional)
+missing module named tkFont - imported by tkcalendar.calendar_ (optional)
+missing module named ttk - imported by tkcalendar.dateentry (optional), tkcalendar.calendar_ (optional), tkcalendar.tooltip (optional)
+missing module named cdecimal - imported by babel._compat (conditional, optional)
+missing module named cPickle - imported by babel._compat (conditional)
+missing module named copy_reg - imported by cStringIO (top-level), cPickle (top-level)
+missing module named cStringIO - imported by babel._compat (conditional), cPickle (top-level)
+missing module named sets - imported by pytz.tzinfo (optional)
+missing module named PIL._imagingagg - imported by PIL (delayed, conditional, optional), PIL.ImageDraw (delayed, conditional, optional)
+missing module named olefile - imported by PIL.MicImagePlugin (top-level), PIL.FpxImagePlugin (top-level)
+missing module named 'PySide.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named 'PyQt4.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named 'PySide2.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named PySide2 - imported by PIL.ImageQt (conditional, optional)
+missing module named 'PyQt5.QtCore' - imported by PIL.ImageQt (conditional, optional)
+missing module named numpy - imported by PIL.ImageFilter (optional)
+missing module named pathlib2 - imported by PIL.Image (optional)
